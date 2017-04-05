@@ -1,0 +1,5 @@
+module CIProto [system] {
+	header "/usr/include/iprotocluster.h"
+	link "iprotocluster"
+	export *
+}
