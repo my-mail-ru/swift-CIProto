@@ -3,3 +3,9 @@ module CIProto [system] {
 	link "iprotocluster"
 	export *
 }
+
+module COctopus [system] {
+	header "octopus_error.h"
+	link "iprotocluster"
+	export *
+}

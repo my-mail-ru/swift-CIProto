@@ -28,7 +28,7 @@ Modulemap for libiprotocluster.
 %install
 rm -rf %{buildroot}
 mkdir -p %{buildroot}%{swift_clangmoduleroot}/CIProto/
-cp module.modulemap %{buildroot}%{swift_clangmoduleroot}/CIProto/
+cp module.modulemap *.h %{buildroot}%{swift_clangmoduleroot}/CIProto/
 
 
 %clean
